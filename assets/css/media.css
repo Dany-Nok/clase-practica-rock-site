@@ -1,0 +1,40 @@
+@media (min-width: 200px) and (max-width: 480px) { /* VISTA PARA TAMAÑO "CELULAR" PEQUEÑO*/
+  [class*="col-"]{
+    width: 100%;
+  }
+  .container{
+    max-width: 100%;
+  }
+
+  .start_bootstrap_title{
+    padding: 1.5em;
+    float: left;
+    clear: both;
+  }
+
+  .bars_menu{
+    display: inline-block;
+    color: gray;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    margin-left: 80%;
+  }
+
+  .short_menu{
+    color: gray;
+  }
+
+  ul{
+    display: none;
+  }
+
+  img{
+    display: block;
+    padding: 0;
+  }
+
+  .rock_1, .rock_2, .rock_3{
+    margin-left: 2em;
+  }
+}
